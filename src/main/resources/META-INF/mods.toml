@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="Use please, u can copy/paste :)"
+[[mods]]
+displayURL="https://github.com/lotebrain1337"
+modId="lb"
+version="1.16.5"
+displayName="LoteBrain"
+description='''
+ ---------------------------------------------------------------------------------------- \n
+ Mod that changes objects in the Minecraft class. \n
+ Specifically, currently 05/05/24, modifies the GameRenderer class object in the Minecraft class. \n
+ My github: https://github.com/lotebrain1337 \n
+ ---------------------------------------------------------------------------------------- \n'''
+
+authors="LoteBrain1337"
+[[dependencies.lb]]
+modId="forge"
+mandatory=true
+versionRange="1.16.5"
+ordering="NONE"
+side="BOTH"
+[[dependencies.lb]]
+modId="minecraft"
+mandatory=true
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
